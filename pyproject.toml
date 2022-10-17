@@ -11,7 +11,9 @@ repository = "https://github.com/amigos-dev/streamlit-test.git"
 
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.8,<3.9.7 || >3.9.7,<4.0"
+numpy = "^1.23.4"
+streamlit = "^1.13.0"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.931"
