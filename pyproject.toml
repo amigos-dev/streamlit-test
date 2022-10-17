@@ -27,7 +27,7 @@ build-backend = "poetry.core.masonry.api"
 #file-collection-hash = 'file_collection_hash.__main__:run'
 
 [tool.semantic_release]
-version_variable = 'streamlit_test/version.py:__version__
+version_variable = 'streamlit_test/version.py:__version__'
 version_toml = 'pyproject.toml:tool.poetry.version'
 branch = 'main'
 upload_to_pypi = false

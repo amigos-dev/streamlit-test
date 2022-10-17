@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Samuel J. McKelvie
+# Copyright (c) 2022 Amigos Development, Inc.
 #
 # MIT License - See LICENSE file accompanying this package.
 #
@@ -10,6 +10,6 @@
 
 
 # The following line is automatically updated with "semantic-release version"
-__version__ =  "1.0.0"
+__version__ =  "0.1.0"
 
 __all__ = [ '__version__' ]
